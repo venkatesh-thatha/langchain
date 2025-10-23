@@ -1,27 +1,17 @@
-# LangChain Core
+#Core LangChain and Hugging Face packages
 
-langchain
-langchain-core
-
-#OpenAI Integration
-langchain-openai
-openai
-
-#Anthropic Integration
-langchain-anthropic
-
-#google Gemini(Palm) Integration
-langchain-googlegemini
-google-generativeai
-
-#hugging face Integration
 langchain-huggingface
 transformers
 huggingface-hub
 
-#Environment Variable management
-python-dotenv
+#PyTorch is required by transformers
 
-#machine learning utilities
-scikit-learn
+torch
+#Accelerate is needed for device_map="auto" (to use GPU)
+
+accelerate
+
+#ptional, but good to have from your original list
+
+python-dotenv
 numpy
